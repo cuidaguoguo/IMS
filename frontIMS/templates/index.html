@@ -1,149 +1,252 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>
-            index
-        </title>
-        <meta name="renderer" content="webkit">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="format-detection" content="telephone=no">
-        <link rel="stylesheet" href="../static/css/x-admin.css" media="all">
-    </head>
-    <body>
-        <div class="layui-layout layui-layout-admin">
-            <div class="layui-header header header-demo">
-                <div class="layui-main">
-                    <a class="logo" href="./index.html">
-                        <h3>教务管理系统</h3>
-                    </a>
-                    <ul class="layui-nav" lay-filter="">
-                      <li class="layui-nav-item"><img src="../static/images/0.jpg" class="layui-circle" style="border: 2px solid #A9B7B7;" width="35px" alt=""></li>
-                      <li class="layui-nav-item">
-                        <a href="javascript:;">admin</a>
-                        <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                          <dd><a href="#">个人信息</a></dd>
-                          <dd><a href="#">切换帐号</a></dd>
-                          <dd><a href="./login.html">退出</a></dd>
-                        </dl>
-                      </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="layui-side layui-bg-black x-side">
-                <div class="layui-side-scroll">
-                    <ul class="layui-nav layui-nav-tree site-demo-nav" lay-filter="side">
-                    <!--数据管理-->
-                        <li class="layui-nav-item">
-                            <a class="javascript:;" href="javascript:;" _href="main.html">
-                               <i class="layui-icon" style="top: 3px;">&#xe62d;</i><cite>数据管理</cite>
-                            </a>
-                      <dl class="layui-nav-child">
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="Warning_management.html">
-                                           <cite>预警信息管理</cite>
-                                        </a>
-                              </dd>
-                                </dd>
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="Data_management.html">
-                                            <cite>数据管理</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="shujutongji.html">
-                                            <cite>数据统计</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                            </dl>
-                        </li>
-                        <!--用户管理-->
-                        <li class="layui-nav-item">
-                            <a class="javascript:;" href="javascript:;" _href="User_management.html">
-                                <i class="layui-icon" style="top: 3px;">&#xe613;</i><cite>用户管理</cite>
-                            </a>
-                        </li>
-                        <!--角色管理-->
-                        <li class="layui-nav-item">
-                            <a class="javascript:;" href="javascript:;" _href="Role_management.html">
-                                <i class="layui-icon" style="top: 3px;">&#xe612;</i><cite>角色管理</cite>
-                            </a>
-                        </li>
-                        <!--网站信息管理-->
-                        <li class="layui-nav-item">
-                            <a class="javascript:;" href="javascript:;">
-                                <i class="layui-icon" style="top: 3px;">&#xe629;</i><cite>网站信息管理</cite>
-                            </a>
-                            <dl class="layui-nav-child">
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="Home.html">
-                                            <i class="layui-icon"></i><cite>首页</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="About_us.html">
-                                            <i class="layui-icon"></i><cite>关于我们</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="New.html">
-                                            <i class="layui-icon"></i><cite>心理新闻</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="Download.html">
-                                            <i class="layui-icon"></i><cite>资源下载</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
-                </div>
 
-            </div>
-            <div class="layui-tab layui-tab-card site-demo-title x-main" lay-filter="x-tab" lay-allowclose="true">
-                <div class="x-slide_left"></div>
-                <ul class="layui-tab-title">
-                    <li class="layui-this">
-                        数据管理
-                        <i class="layui-icon layui-unselect layui-tab-close">ဆ</i>
-                    </li>
-                </ul>
-                <div class="layui-tab-content site-demo site-demo-body">
-                    <div class="layui-tab-item layui-show">
-                        <iframe frameborder="0" src="main.html" class="x-iframe"></iframe>
+<!DOCTYPE html>
+<html class=" js csstransforms3d">
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>网站后台管理系统</title>
+	<link rel="stylesheet" href="../static/css/base.css">
+	<link rel="stylesheet" href="../static/css/page.css">
+	<!--[if lte IE 8]>
+	<link href="../static/css/ie8.css" rel="stylesheet" type="text/css"/>
+	<![endif]-->
+	<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../static/js/modernizr.js"></script>
+	<!--[if IE]>
+	<script src="../static/http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="superWrap clearfix" style="height: 781px;">
+	<div class="super-side-menu">
+			<div class="super-side-menu">
+		        <div class="logo"><a href="public_super_cg.html" target="_parent"><img src="../static/images/logo.png"></a></div>
+
+                <div class="side-menu">
+                    <ul>
+                        <li class=""><a href="teacherguanli" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
+                        <li><a href="studentguanli" target="Mainindex"><i class="ico-2"></i>学生管理</a></li>
+                        <li class="on"><a href="xiangce_Guanli.html" target="Mainindex"><i class="ico-3"></i>成绩管理</a></li>
+                        <li><a href="tupian_pc_index.html" target="Mainindex"><i class="ico-4"></i>班级管理</a></li>
+                        <li><a href="zixun_Team.html" target="Mainindex"><i class="ico-5"></i>课程管理</a></li>
+                    </ul>
+                </div>
+	        </div>
+        <script type="text/javascript">
+            $(function(){
+                $('.side-menu li').click(function(){
+                    $(this).addClass('on').siblings().removeClass('on');
+                })
+            })
+        </script>
+    </div>
+	<!--side E-->
+	<!--content S-->
+	<div class="superContent">
+		
+		<div class="super-header super-header2">
+			<div class="super-header clearfix">
+	            <h2>网站后台管理系统</h2>
+                <div class="head-right">
+                    <i class="ico-user"></i>当前用户：
+                    <div class="userslideDown">
+                        <a href="javascript:;" class="superUser">Admin<i class="ico-tri"></i></a>
+                        <div class="slidedownBox">
+                            <ul>
+                                <li><a href="change_psw.html" target="Mainindex">修改密码</a></li>
+                                <li><a href="loginb.html" target="_parent">退出</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="site-mobile-shade">
+		<!--header-->
+		<div class="superCtab superCtabBot" style="height: 695px;">
+        <div class="super-content RightMain" id="RightMain">
+
+		<!--header-->
+		<div class="superCtab">
+			<div class="ctab-title clearfix"><h3>文章发布</h3><a href="javascript:;" class="sp-column"><i class="ico-mng"></i>栏目管理</a></div>
+			<div class="ctab-Main">
+				<div class="ctab-Mian-cont">
+					<div class="Mian-cont-btn clearfix">
+						<div class="operateBtn">
+							<a href="javascript:;" class="greenbtn add sp-add">添加</a>
+							<a href="javascript:;" class="modify sp-modify" id="sp-modify">修改</a>
+						</div>
+						<div class="searchBar">
+							<input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
+							<input type="button" class="srhBtn" value="">
+						</div>
+					</div>
+					<div class="Mian-cont-wrap">
+						<div class="defaultTab-T">
+							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
+								<tbody><tr><th class="t_1">文章ID</th><th class="t_2">文章标题</th><th class="t_3">发布时间</th><th class="t_4">操作</th></tr>
+							</tbody></table>
+						</div>
+						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
+							<tbody>
+								<tr>
+									<td class="t_1">20150084</td>
+									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
+									<td class="t_3">2015-12-01</td>
+									<td class="t_4"><div class="btn"><a class="Top">置顶</a><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+								</tr>
+
+							</tbody>
+						</table>
+						<!--pages S-->
+						<div class="pageSelect">
+							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<div class="pageWrap">
+								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
+								<a href="#" class="pagenumb cur">1</a>
+								<a href="#" class="pagenumb">2</a>
+								<a href="#" class="pagenumb">3</a>
+								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
+							</div>
+						</div>
+						<!--pages E-->
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--main-->
+
+	</div>
+	<!--content E-->
+
+	    <div class="layuiBg"></div><!--公共遮罩-->
+        <!--点击修改弹出层-->
+        <div class="imgXgbox layuiBox">
+            <div class="layer-title clearfix"><h2>修改栏目图片</h2><span class="layerClose"></span></div>
+            <div class="layer-content">
+                <div class="XgfileImg"><img src="../static/images/bg_img_sc.jpg"><input id="fileImage" class="fileImageSlect" type="file" size="30" name="fileselect[]"></div>
+                <p class="onclktip">（点击图片可重新上传）</p>
+                <div class="Xgimglink clearfix"><span>图片链接：</span><input type="text" value=""></div>
+                <div class="XgBtn"><input type="button" value="保存" class="saveBtn"></div>
             </div>
         </div>
-        <script src="./lib/layui/layui.js" charset="utf-8"></script>
-        <script src="../static/js/x-admin.js"></script>
-        <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-        </script>
-    </body>
+	    <!--点击添加分类弹出-->
+        <div class="addFeileibox layuiBox">
+            <div class="layer-title clearfix"><h2>添加分类</h2><span class="layerClose"></span></div>
+            <div class="layer-content">
+                <div class="aFllink clearfix"><span>上级栏目：</span><h5>新闻动态</h5></div>
+                <div class="aFllink clearfix"><span>二级栏目：</span><input type="text" value=""></div>
+                <div class="aFlBtn"><input type="button" value="保存" class="saveBtn"></div>
+            </div>
+        </div>
+            <script type="text/javascript" src="../static/js/zxxFile.js"></script>
+            <script>
+            var params = {
+                fileInput: $("#fileImage").get(0),
+                upButton: $("#fileSubmit").get(0),
+                url: $("#uploadForm").attr("action"),
+                filter: function(files) {
+                    var arrFiles = [];
+                    for (var i = 0, file; file = files[i]; i++) {
+                        if (file.type.indexOf("image") == 0) {
+                            if (file.size >= 512000) {
+                                alert('您这张"'+ file.name +'"图片大小过大，应小于500k');
+                            } else {
+                                arrFiles.push(file);
+                            }
+                        } else {
+                            alert('文件"' + file.name + '"不是图片。');
+                        }
+                    }
+                    return arrFiles;
+                },
+                onSelect: function(files) {
+                    var html = '', i = 0;
+                    $("#preview").html('<div class="upload_loading"></div>');
+                    var funAppendImage = function() {
+                        file = files[i];
+                        if (file) {
+                            var reader = new FileReader()
+                            reader.onload = function(e) {
+                                $('.XgfileImg img').attr('src', e.target.result);
+                                $('.sp-photo').addClass('cur');
+                                html = html + '<div id="uploadList_'+ i +'" class="upload_append_list"><p><span>' + file.name + '</span>'+
+                                    '<a href="javascript:" class="upload_delete" title="删除" data-index="'+ i +'">删除</a>' +
+                                '</div>';
+
+                                i++;
+                                funAppendImage();
+                            }
+                            reader.readAsDataURL(file);
+                        } else {
+                            $("#preview").html(html);
+                            if (html) {
+                                //删除方法
+                                $(".upload_delete").click(function() {
+                                    ZXXFILE.funDeleteFile(files[parseInt($(this).attr("data-index"))]);
+                                    $('.sp-photo').removeClass('cur').html('栏目图片');
+                                    return false;
+                                });
+                                //提交按钮显示
+                                $("#fileSubmit").show();
+                            } else {
+                                //提交按钮隐藏
+                                $("#fileSubmit").hide();
+                            }
+                        }
+                    };
+                    funAppendImage();
+                },
+                onDelete: function(file) {
+                    $("#uploadList_" + file.index).fadeOut();
+                },
+                onDragOver: function() {
+                    $(this).addClass("upload_drag_hover");
+                },
+                onDragLeave: function() {
+                    $(this).removeClass("upload_drag_hover");
+                },
+                onProgress: function(file, loaded, total) {
+                    var eleProgress = $("#uploadProgress_" + file.index), percent = (loaded / total * 100).toFixed(2) + '%';
+                    eleProgress.show().html(percent);
+                },
+                onSuccess: function(file, response) {
+                    $("#uploadInf").append("<p>上传成功，图片地址是：" + response + "</p>");
+                },
+                onFailure: function(file) {
+                    $("#uploadInf").append("<p>图片" + file.name + "上传失败！</p>");
+                    $("#uploadImage_" + file.index).css("opacity", 0.2);
+                },
+                onComplete: function() {
+                    //提交按钮隐藏
+                    $("#fileSubmit").hide();
+                    //file控件value置空
+                    $("#fileImage").val("");
+                    $("#uploadInf").append("<p>当前图片全部上传完毕，可继续添加上传。</p>");
+                }
+            };
+            ZXXFILE = $.extend(ZXXFILE, params);
+            ZXXFILE.init();
+
+            </script>
+		</div>
+		<!--main-->
+		
+	</div>
+	<!--content E-->
+	
+</div>
+
+    <script>
+    window.onresize = function(){
+        var winH=$(window).height();
+        var headH=$('.super-header').height();
+        $('.superWrap').height(winH);
+        $('.superCtabBot').height(winH-headH);
+    };
+    $(window).resize();
+    </script>
+
+</div>
+</body>
 </html>

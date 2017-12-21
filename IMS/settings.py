@@ -83,7 +83,7 @@ DATABASES = {
         'USER': 'root',
         'NAME': 'ims',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': '10.55.91.107',
         'PORT': '3306'
     }
 }
