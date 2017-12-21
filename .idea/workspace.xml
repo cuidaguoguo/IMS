@@ -2,53 +2,135 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2925f66e-7ca9-4f97-ba7e-dc39f8a908f1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/css/x-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/banner1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/banner2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/banner3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/c2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/daochu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/daochu1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/daoru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/look.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/look2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/look3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/quanxian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shipin1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shipin2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shipin3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shipin4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shipin5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shuji1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shuji2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shuji3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/shuji4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/t1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/t2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/tongji.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/tupian2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/tupian3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/images/tupian4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/corechart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/jquery.ba-resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/jquery.gvChart-1.0.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/jsapi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/x-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/js/x-layui.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/templetes/index.html" afterPath="$PROJECT_DIR$/frontIMS/templetes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/views.py" afterPath="$PROJECT_DIR$/frontIMS/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/Data_management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/Download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/Role_management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/User_management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/download_bookadd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/download_bookedit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/download_picadd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/laydate/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/laydate/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/dest/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/lib/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/lib/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/new_add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/user_management_add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/user_management_password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templetes/user_management_show.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,7 +180,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontIMS/templetes/index.html">
+        <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-108">
               <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
@@ -108,7 +190,7 @@
         </entry>
       </file>
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontIMS/templetes/login.html">
+        <entry file="file://$PROJECT_DIR$/frontIMS/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1296">
               <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
@@ -518,9 +600,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -552,7 +633,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontIMS/templetes/user_management_show.html">
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/user_management_show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
@@ -560,7 +641,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/layui.css">
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/css/layui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -581,7 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templetes/lib/layui/layui.js">
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/layui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -589,12 +670,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templetes/lib/layui/css/modules/layer/default/icon.png">
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templetes/login.html">
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
@@ -652,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templetes/index.html">
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
