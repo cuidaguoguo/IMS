@@ -11,6 +11,6 @@ from django.db.models import Q
 
 def index(req):
     if req.method == "GET":
-        return render_to_response('login.html')
+        return render_to_response('frontIMS/index.html')
     if req.method == "POST":
         pass
