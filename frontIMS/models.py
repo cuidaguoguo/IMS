@@ -91,11 +91,9 @@ class Score(models.Model):
     '''
     成绩表
     '''
-    ScoreId = models.CharField(primary_key=True, max_length=20)
+    ScoreId = models.AutoField(primary_key=True, max_length=20)
     Score = models.CharField(null=False, max_length=20)
     CouserId = models.ForeignKey(Couser, max_length=20)
     StudentId = models.ForeignKey(Student, max_length=20)
 
-    def __unicode__(self):
-        return self.ScoreId
 

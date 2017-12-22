@@ -15,16 +15,18 @@
 	<div class="loginMain">
 		<div class="tabwrap">
 		<table border="0" cellspacing="0" cellpadding="0">
-			<tr><td>&nbsp;</td><td class="title">欢迎您登录教务管理系统</td></tr>
-			<tr><td class="title">用户名：</td><td><input type="text" class="form-control txt" /></td></tr>
-			<tr><td class="title">密   码：</td><td><input type="password" class="form-control txt" /></td></tr>
-			<!--<tr><td class="title">验证码：</td><td><input type="text" class="form-control txt txt2" /><span class="yzm"><img src="../static/images/yzm.jpg"/></span></td></tr>-->
-			<!--<tr class="errortd"><td>&nbsp;</td><td><i class="ico-error"></i><span class="errorword">用户名或密码错误，请重新输入！</span></td></tr>		-->
-			<tr><td>&nbsp;</td><td><input type="button" class="loginbtn" value="登录" onclick="location.href='index.html'"/><input type="button" class="resetbtn" value="重置" onclick="location.href=''"/></td></tr>
+			<tr><td>&nbsp;</td><td class="title" style="text-indent:1.8em;">欢迎您登录教务管理系统</td></tr>
+			<tr><td class="title">账   号：</td><td><input type="text" id="account" name="account" class="form-control txt" placeholder="教师工号"/></td></tr>
+			<tr><td class="title">密   码：</td><td><input type="password" id="password" name="password" class="form-control txt" placeholder="密码"/></td></tr>
+			<tr><td>&nbsp;</td><td><input type="button" class="loginbtn" value="登录" onclick="login()"/><input type="button" class="resetbtn" value="重置" onclick="resets()"/></td></tr>
 			<tr><td>&nbsp;</td><td class="forgetpsw"></td></tr>
 		</table>
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="../static/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../static/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../static/js/loginb.js"></script>
+<script type="text/javascript" src="../static/js/jquery-3.2.1.min.js"></script>
 </body>
 </html>
