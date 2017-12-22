@@ -2,308 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2925f66e-7ca9-4f97-ba7e-dc39f8a908f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/bg_img_sc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/bg_login.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/bg_loginA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_fabu_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_fabu_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_fabu_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_fabu_other.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_fabu_page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_left_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_mb_xz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_tabchu_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_tanchu_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_wrong (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ico_wrong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img-hui.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img-mb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img-snt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img_jrn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img_xc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img_xc_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/img_xt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/login_step_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/login_step_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/ms-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/images/yzm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/bg_img_sc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/bg_login.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/bg_loginA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_fabu_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_fabu_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_fabu_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_fabu_other.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_fabu_page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_left_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_mb_xz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_tabchu_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_tanchu_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_wrong (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ico_wrong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img-hui.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img-mb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img-snt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img_jrn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img_xc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img_xc_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/img_xt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/login_step_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/login_step_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/ms-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/yzm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/css/ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/css/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/js/jquery.selectui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/js/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/js/webuploader/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/js/webuploader/webuploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/static/js/zxxFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/change_psw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/huodong_ZiZhan.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/huodong_guanli.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/loginb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/muban_Guanli.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/public_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/public_left_cg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/public_super_cg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/css/ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/css/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/jquery.selectui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/webuploader/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/webuploader/webuploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/static/js/zxxFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/studentguanli.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/super_cg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/super_label.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/teacherguanli.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg_ms1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg_ms3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg_ms4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg_ms5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg_ms6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_jzg_ms7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_ny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_rm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_td.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_yq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_pc_zy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/tupian_yd_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_aboutus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_kehu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_lianxi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_pinshang.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_remen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_xinwen_fabu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_zhaoxian.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/wenzhang_zhuoyue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/xiangce_Content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/xiangce_Guanli.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/xitong_set.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/zixun_Team.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontIMS/templates/zixun_dtl.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/css/x-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/banner3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/c2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/daochu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/daochu1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/daoru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/look.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/look2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/look3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/quanxian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shipin1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shipin2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shipin3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shipin4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shipin5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shuji1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shuji2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shuji3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/shuji4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/t1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/t2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/tongji.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/tupian2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/tupian3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/images/tupian4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/corechart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/jquery.ba-resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/jquery.gvChart-1.0.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/jsapi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/x-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/static/js/x-layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/Data_management.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/Download.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/Home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/Role_management.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/User_management.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/download_bookadd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/download_bookedit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/download_picadd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/laydate/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/laydate/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/dest/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/lib/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/new_add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/user_management_add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/user_management_password.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontIMS/templates/user_management_show.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontIMS/static/images/banner1.png" afterPath="$PROJECT_DIR$/frontIMS/static/images/logo_login.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontIMS/static/images/banner2.png" afterPath="$PROJECT_DIR$/frontIMS/templates/static/images/logo_login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/static/images/bg.jpg" afterPath="$PROJECT_DIR$/frontIMS/static/images/bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMS/settings.py" afterPath="$PROJECT_DIR$/IMS/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMS/urls.py" afterPath="$PROJECT_DIR$/IMS/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/models.py" afterPath="$PROJECT_DIR$/frontIMS/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/static/css/login.css" afterPath="$PROJECT_DIR$/frontIMS/static/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/static/css/page.css" afterPath="$PROJECT_DIR$/frontIMS/static/css/page.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/templates/index.html" afterPath="$PROJECT_DIR$/frontIMS/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/urls.py" afterPath="$PROJECT_DIR$/frontIMS/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontIMS/views.py" afterPath="$PROJECT_DIR$/frontIMS/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -313,55 +16,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/IMS$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1513861912411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IMS$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1513924817639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMS/settings.py">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontIMS/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontIMS/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontIMS/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentguanli.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontIMS/templates/studentguanli.html">
+      <file leaf-file-name="ie8.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontIMS/static/css/ie8.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -370,11 +41,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teacherguanli.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontIMS/templates/teacherguanli.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="192">
+              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontIMS/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="71" column="56" lean-forward="false" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontIMS/static/css/page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3564">
+              <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMS/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentguanli.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontIMS/templates/studentguanli.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -383,10 +94,22 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontIMS/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="189">
               <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontIMS/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -409,6 +132,12 @@
       <find>beg-login-box</find>
       <find>templates</find>
       <find>layui-form</find>
+      <find>side-menu li</find>
+      <find>t_2</find>
+      <find>main</find>
+      <find>side-menu</find>
+      <find>Mian-cont-wrap</find>
+      <find>INSTALLED_APPS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -424,16 +153,17 @@
         <option value="$PROJECT_DIR$/frontIMS/apps.py" />
         <option value="$PROJECT_DIR$/frontIMS/templetes/index.html" />
         <option value="$PROJECT_DIR$/frontIMS/static/css/login.css" />
-        <option value="$PROJECT_DIR$/IMS/settings.py" />
         <option value="$PROJECT_DIR$/frontIMS/templates/main.html" />
         <option value="$PROJECT_DIR$/IMS/urls.py" />
         <option value="$PROJECT_DIR$/frontIMS/templates/login.html" />
         <option value="$PROJECT_DIR$/frontIMS/templates/wenzhang_xinwen.html" />
         <option value="$PROJECT_DIR$/frontIMS/templates/huodong_Team.html" />
         <option value="$PROJECT_DIR$/frontIMS/templates/studentguanli.html" />
-        <option value="$PROJECT_DIR$/frontIMS/templates/index.html" />
         <option value="$PROJECT_DIR$/frontIMS/urls.py" />
         <option value="$PROJECT_DIR$/frontIMS/views.py" />
+        <option value="$PROJECT_DIR$/frontIMS/static/css/page.css" />
+        <option value="$PROJECT_DIR$/frontIMS/templates/index.html" />
+        <option value="$PROJECT_DIR$/IMS/settings.py" />
         <option value="$PROJECT_DIR$/frontIMS/models.py" />
       </list>
     </option>
@@ -445,8 +175,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="506" />
-    <option name="y" value="161" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -514,7 +244,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../111" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -769,27 +499,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="506" y="161" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2407809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21558245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37704918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -804,11 +534,121 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontIMS/__init__.py">
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/studentguanli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/studentguanli.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/teacherguanli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -862,48 +702,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/user_management_show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/static/images/0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/user_management_show.html" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/css/layui.css" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/images/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/layui.js" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/lib/layui/css/modules/layer/default/icon.png" />
     <entry file="file://$PROJECT_DIR$/frontIMS/templetes/css/login.css" />
     <entry file="file://$PROJECT_DIR$/frontIMS/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,54 +722,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/static/js/jsapi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/ie8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/js/jsapi.js" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/main.html" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/login.html" />
     <entry file="file://$PROJECT_DIR$/frontIMS/templates/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="34" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,47 +753,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/wenzhang_xinwen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="187" column="9" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="187" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/public_left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="42" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/huodong_PinDao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/wenzhang_xinwen.html" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/public_left.html" />
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/huodong_PinDao.html" />
     <entry file="file://$PROJECT_DIR$/frontIMS/templates/change_psw.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontIMS/templates/teacherguanli.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="135">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,33 +783,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/studentguanli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontIMS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="189">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -1072,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontIMS/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="864">
           <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -1080,10 +803,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/studentguanli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/ie8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/static/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontIMS/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontIMS/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        <state relative-caret-position="1377">
+          <caret line="71" column="56" lean-forward="false" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
           <folding />
         </state>
       </provider>

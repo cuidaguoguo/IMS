@@ -130,6 +130,9 @@
 .super-label a em { display: block; width: 16px; height: 16px; background: url(../images/ico_fabu_close.png) no-repeat; position: absolute; top: -5px; right: -6px;}
 
 .Mian-cont-wrap { margin: 0 2%; background: #fff; border: 1px solid #dbd9e1;}
+.main1-1{
+	display: none;
+}
 .defaultTab-T {background: #fdfdfd; border-bottom: 1px solid #f1eff6;}
 .defaultTable { width: 98%; margin: 0 auto;}
 .defaultTable tr { position: relative;}
@@ -137,7 +140,7 @@
 .defaultTable2 { width: 98%; margin: 5px auto;}
 .defaultTable td { color: #545454; padding: 15px 0; border-bottom: 1px solid #f6f5fa;}
 .defaultTable .t_1 { width: 10%; text-align: left; padding-left: 1%; position: relative;}
-.defaultTable .t_2 { width: 55%; text-align: left;}
+.defaultTable .t_2 { width: 24%; text-align: left;}
 .defaultTable .t_3 { width: 15%; text-align: center;}
 .defaultTable .t_4 { width: 30%; text-align: center;}
 .defaultTable .t_5 { width: 14%; text-align: left;}

@@ -12,6 +12,7 @@
 	<link href="../static/css/ie8.css" rel="stylesheet" type="text/css"/>
 	<![endif]-->
 	<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
 	<script type="text/javascript" src="../static/js/modernizr.js"></script>
 	<!--[if IE]>
 	<script src="../static/http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
@@ -25,11 +26,11 @@
 
                 <div class="side-menu">
                     <ul>
-                        <li class=""><a href="teacherguanli" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
-                        <li><a href="studentguanli" target="Mainindex"><i class="ico-2"></i>学生管理</a></li>
-                        <li class="on"><a href="xiangce_Guanli.html" target="Mainindex"><i class="ico-3"></i>成绩管理</a></li>
-                        <li><a href="tupian_pc_index.html" target="Mainindex"><i class="ico-4"></i>班级管理</a></li>
-                        <li><a href="zixun_Team.html" target="Mainindex"><i class="ico-5"></i>课程管理</a></li>
+                        <li class="on"><a href="#" onclick="teacherguanli()" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
+                        <li><a href="#" target="Mainindex" onclick="studentguanli()"><i class="ico-2"></i>学生管理</a></li>
+                        <li class=""><a href="#" target="Mainindex" onclick="scoreguanli()"><i class="ico-3"></i>成绩管理</a></li>
+                        <li><a href="#" target="Mainindex" onclick="classguanli()"><i class="ico-4"></i>班级管理</a></li>
+                        <li><a href="#" target="Mainindex" onclick="courseguanli()"><i class="ico-5"></i>课程管理</a></li>
                     </ul>
                 </div>
 	        </div>
@@ -80,10 +81,10 @@
 							<input type="button" class="srhBtn" value="">
 						</div>
 					</div>
-					<div class="Mian-cont-wrap">
+					<div id="teacher" class="Mian-cont-wrap">
 						<div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
-								<tbody><tr><th class="t_1">文章ID</th><th class="t_2">文章标题</th><th class="t_3">发布时间</th><th class="t_4">操作</th></tr>
+								<tbody><tr><th class="t_1">教师ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
 							</tbody></table>
 						</div>
 						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
@@ -92,7 +93,128 @@
 									<td class="t_1">20150084</td>
 									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
 									<td class="t_3">2015-12-01</td>
-									<td class="t_4"><div class="btn"><a class="Top">置顶</a><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+								</tr>
+
+							</tbody>
+						</table>
+						<!--pages S-->
+						<div class="pageSelect">
+							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<div class="pageWrap">
+								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
+								<a href="#" class="pagenumb cur">1</a>
+								<a href="#" class="pagenumb">2</a>
+								<a href="#" class="pagenumb">3</a>
+								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
+							</div>
+						</div>
+						<!--pages E-->
+					</div>
+                    <div id="student" class="Mian-cont-wrap main1-1">
+						<div class="defaultTab-T">
+							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
+								<tbody><tr><th class="t_1">学生ID</th><th class="t_2">学习的课程号</th><th class="t_3">课程名</th><th class="t_4">成绩</th><th class="t_4">操作</th></tr>
+							</tbody></table>
+						</div>
+						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
+							<tbody>
+								<tr>
+									<td class="t_1">20150084</td>
+									<td class="t_2"><a href="#">1111111</a></td>
+									<td class="t_3">2015-12-01</td>
+                                    <td class="t_4">100</td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+								</tr>
+
+							</tbody>
+						</table>
+						<!--pages S-->
+						<div class="pageSelect">
+							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<div class="pageWrap">
+								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
+								<a href="#" class="pagenumb cur">1</a>
+								<a href="#" class="pagenumb">2</a>
+								<a href="#" class="pagenumb">3</a>
+								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
+							</div>
+						</div>
+						<!--pages E-->
+					</div>
+                    <div id="score" class="Mian-cont-wrap main1-1">
+						<div class="defaultTab-T">
+							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
+								<tbody><tr><th class="t_1">课程ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
+							</tbody></table>
+						</div>
+						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
+							<tbody>
+								<tr>
+									<td class="t_1">20150084</td>
+									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
+									<td class="t_3">2015-12-01</td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+								</tr>
+
+							</tbody>
+						</table>
+						<!--pages S-->
+						<div class="pageSelect">
+							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<div class="pageWrap">
+								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
+								<a href="#" class="pagenumb cur">1</a>
+								<a href="#" class="pagenumb">2</a>
+								<a href="#" class="pagenumb">3</a>
+								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
+							</div>
+						</div>
+						<!--pages E-->
+					</div>
+                    <div id="class" class="Mian-cont-wrap main1-1">
+						<div class="defaultTab-T">
+							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
+								<tbody><tr><th class="t_1">班级ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
+							</tbody></table>
+						</div>
+						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
+							<tbody>
+								<tr>
+									<td class="t_1">20150084</td>
+									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
+									<td class="t_3">2015-12-01</td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+								</tr>
+
+							</tbody>
+						</table>
+						<!--pages S-->
+						<div class="pageSelect">
+							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<div class="pageWrap">
+								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
+								<a href="#" class="pagenumb cur">1</a>
+								<a href="#" class="pagenumb">2</a>
+								<a href="#" class="pagenumb">3</a>
+								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
+							</div>
+						</div>
+						<!--pages E-->
+					</div>
+                    <div id="course" class="Mian-cont-wrap main1-1">
+						<div class="defaultTab-T">
+							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
+								<tbody><tr><th class="t_1">课程ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
+							</tbody></table>
+						</div>
+						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
+							<tbody>
+								<tr>
+									<td class="t_1">20150084</td>
+									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
+									<td class="t_3">2015-12-01</td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
 								</tr>
 
 							</tbody>
@@ -245,6 +367,49 @@
         $('.superCtabBot').height(winH-headH);
     };
     $(window).resize();
+    </script>
+{#    教师管理#}
+    <script>
+        function teacherguanli() {
+            $("#teacher").removeClass("main1-1");
+            $("#student").addClass("main1-1");
+            $("#score").addClass("main1-1");
+            $("#class").addClass("main1-1");
+            $("#course").addClass("main1-1");
+
+        }
+        function studentguanli() {
+            $("#teacher").addClass("main1-1");
+            $("#student").removeClass("main1-1");
+            $("#score").addClass("main1-1");
+            $("#class").addClass("main1-1");
+            $("#course").addClass("main1-1");
+
+        }
+        function scoreguanli() {
+            $("#teacher").addClass("main1-1");
+            $("#student").addClass("main1-1");
+            $("#score").removeClass("main1-1");
+            $("#class").addClass("main1-1");
+            $("#course").addClass("main1-1");
+
+        }
+        function classguanli() {
+            $("#teacher").addClass("main1-1");
+            $("#student").addClass("main1-1");
+            $("#score").addClass("main1-1");
+            $("#class").removeClass("main1-1");
+            $("#course").addClass("main1-1");
+
+        }
+        function courseguanli() {
+            $("#teacher").addClass("main1-1");
+            $("#student").addClass("main1-1");
+            $("#score").addClass("main1-1");
+            $("#class").addClass("main1-1");
+            $("#course").removeClass("main1-1");
+
+        }
     </script>
 
 </div>

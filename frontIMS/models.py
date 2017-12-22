@@ -40,3 +40,34 @@ class Student(models.Model):
     Id = models.AutoField(primary_key=True)
     Grade = models.CharField(null=False, max_length=20)
     Major = models.CharField(null=True, max_length=20)
+
+
+
+class Teacher(models.Model):
+    '''
+    教师表
+    '''
+    Id = models.AutoField(primary_key=True)
+    cNO = models.CharField(null=False, max_length=20)
+
+
+
+class Score(models.Model):
+    '''
+    成绩表
+    '''
+    Id = models.AutoField(primary_key=True)
+    Score = models.CharField(null=False, max_length=20)
+    cNO = models.CharField(null=False, max_length=20)
+
+
+class Couser(models.Model):
+    '''
+    课程表
+    '''
+
+    cNO = models.CharField(primary_key=True, max_length=20)
+    CouserName = models.CharField(null=True, max_length=20)
+    Credit = models.CharField(null=True, max_length=20)
+    Period = models.CharField(null=False, max_length=20 )
+    
