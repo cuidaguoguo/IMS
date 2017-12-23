@@ -13,6 +13,7 @@
 	<![endif]-->
 	<script type="text/javascript" src="../static/js/jquery.min.js"></script>
     <script type="text/javascript" src="../static/js/main.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
 	<script type="text/javascript" src="../static/js/modernizr.js"></script>
 	<!--[if IE]>
 	<script src="../static/http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
@@ -26,21 +27,22 @@
 
                 <div class="side-menu">
                     <ul>
-                        <li class="on"><a href="#" onclick="teacherguanli()" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
-                        <li><a href="#" target="Mainindex" onclick="studentguanli()"><i class="ico-2"></i>学生管理</a></li>
-                        <li class=""><a href="#" target="Mainindex" onclick="scoreguanli()"><i class="ico-3"></i>成绩管理</a></li>
-                        <li><a href="#" target="Mainindex" onclick="classguanli()"><i class="ico-4"></i>班级管理</a></li>
-                        <li><a href="#" target="Mainindex" onclick="courseguanli()"><i class="ico-5"></i>课程管理</a></li>
+                        <li class="on" id="11"><a href="#" onclick="teacherguanli()" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
+                        <li id="22"><a href="#" target="Mainindex" onclick="studentguanli()"><i class="ico-2"></i>学生管理</a></li>
+                        <li id="33"><a href="#" target="Mainindex" onclick="scoreguanli()"><i class="ico-3"></i>成绩管理</a></li>
+                        <li id="44"><a href="#" target="Mainindex" onclick="classguanli()"><i class="ico-4"></i>班级管理</a></li>
+                        <li id="55"><a href="#" target="Mainindex" onclick="courseguanli()"><i class="ico-5"></i>课程管理</a></li>
                     </ul>
                 </div>
 	        </div>
-        <script type="text/javascript">
-            $(function(){
-                $('.side-menu li').click(function(){
-                    $(this).addClass('on').siblings().removeClass('on');
-                })
-            })
-        </script>
+{#        <script type="text/javascript">#}
+{#            $(function(){#}
+{#                #}
+{#                $('.side-menu li').click(function(){#}
+{#                    $(this).addClass('on').siblings().removeClass('on');#}
+{#                })#}
+{#            })#}
+{#        </script>#}
     </div>
 	<!--side E-->
 	<!--content S-->
@@ -48,11 +50,11 @@
 		
 		<div class="super-header super-header2">
 			<div class="super-header clearfix">
-	            <h2>网站后台管理系统</h2>
+	            <h2>教务管理系统</h2>
                 <div class="head-right">
                     <i class="ico-user"></i>当前用户：
                     <div class="userslideDown">
-                        <a href="javascript:;" class="superUser">Admin<i class="ico-tri"></i></a>
+                        <a href="javascript:;" class="superUser"><i class="ico-tri" ></i></a>
                         <div class="slidedownBox">
                             <ul>
                                 <li><a href="change_psw.html" target="Mainindex">修改密码</a></li>
@@ -68,7 +70,6 @@
 
 		<!--header-->
 		<div class="superCtab">
-			<div class="ctab-title clearfix"><h3>文章发布</h3><a href="javascript:;" class="sp-column"><i class="ico-mng"></i>栏目管理</a></div>
 			<div class="ctab-Main">
 				<div class="ctab-Mian-cont">
 					<div class="Mian-cont-btn clearfix">
@@ -84,20 +85,19 @@
 					<div id="teacher" class="Mian-cont-wrap">
 						<div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
-								<tbody><tr><th class="t_1">教师工号</th><th class="t_2">姓名</th><th class="t_3">所属学院</th><th class="t_3">课程名</th><th class="t_3">学时</th><th class="t_4">操作</th></tr>
+								<tbody><tr><th class="t_1">教师工号</th><th class="t_2">姓名</th><th class="t_3">所属学院</th><th class="t_4">操作</th></tr>
 							</tbody></table>
 						</div>
 						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
 							<tbody>
+                            {% for teachers in teacher %}
 								<tr>
-									<td class="t_1">20150084</td>
-									<td class="t_2">平安</td>
-									<td class="t_3">2015-12-01</td>
-                                    <td class="t_3">2015-12-01</td>
-                                    <td class="t_3">2015-12-01</td>
+									<td class="t_1">{{ teachers.TeacherId }}</td>
+									<td class="t_2">{{ teachers.UserName }}</td>
+									<td class="t_3">{{ teachers.InstitudeId }}</td>
 									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
 								</tr>
-
+                            {% endfor %}
 							</tbody>
 						</table>
 						<!--pages S-->
