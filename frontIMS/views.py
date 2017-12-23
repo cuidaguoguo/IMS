@@ -72,7 +72,10 @@ def index(req):
         teacherid = req.COOKIES.get('teacherid')
         username = req.COOKIES.get('username')
         teacher = models.Teacher.objects.all()
-        return render_to_response('index.html',{"teacher":teacher})
+        student = models.Student.objects.all()
+        allclass = models.Grade.objects.all()
+        courses = models.Couser.objects.all()
+        return render_to_response('index.html',{"teacher":teacher,"student":student,"class":allclass,"course":courses})
     if req.method == "POST":
         pass
 

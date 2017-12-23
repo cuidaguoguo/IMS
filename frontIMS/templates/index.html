@@ -5,16 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>网站后台管理系统</title>
+	<title>教务管理系统</title>
 	<link rel="stylesheet" href="../static/css/base.css">
 	<link rel="stylesheet" href="../static/css/page.css">
+    <link rel="stylesheet" href="../static/css/layui.css">
 	<!--[if lte IE 8]>
 	<link href="../static/css/ie8.css" rel="stylesheet" type="text/css"/>
 	<![endif]-->
-	<script type="text/javascript" src="../static/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../static/js/main.js"></script>
-    <script type="text/javascript" src="../static/js/index.js"></script>
-	<script type="text/javascript" src="../static/js/modernizr.js"></script>
 	<!--[if IE]>
 	<script src="../static/http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
@@ -27,22 +24,14 @@
 
                 <div class="side-menu">
                     <ul>
-                        <li class="on" id="11"><a href="#" onclick="teacherguanli()" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
-                        <li id="22"><a href="#" target="Mainindex" onclick="studentguanli()"><i class="ico-2"></i>学生管理</a></li>
-                        <li id="33"><a href="#" target="Mainindex" onclick="scoreguanli()"><i class="ico-3"></i>成绩管理</a></li>
-                        <li id="44"><a href="#" target="Mainindex" onclick="classguanli()"><i class="ico-4"></i>班级管理</a></li>
-                        <li id="55"><a href="#" target="Mainindex" onclick="courseguanli()"><i class="ico-5"></i>课程管理</a></li>
+                        <li class="11" id="11"><a href="#" onclick="teacherguanli()" target="Mainindex"><i class="ico-1"></i>教师管理</a></li>
+                        <li id="22" class="22"><a href="#" target="Mainindex" onclick="studentguanli()"><i class="ico-2"></i>学生管理</a></li>
+                        <li id="33" class="33"><a href="#" target="Mainindex" onclick="scoreguanli()"><i class="ico-3"></i>成绩管理</a></li>
+                        <li id="44" class="44"><a href="#" target="Mainindex" onclick="classguanli()"><i class="ico-4"></i>班级管理</a></li>
+                        <li id="55" class="55"><a href="#" target="Mainindex" onclick="courseguanli()"><i class="ico-5"></i>课程管理</a></li>
                     </ul>
                 </div>
 	        </div>
-{#        <script type="text/javascript">#}
-{#            $(function(){#}
-{#                #}
-{#                $('.side-menu li').click(function(){#}
-{#                    $(this).addClass('on').siblings().removeClass('on');#}
-{#                })#}
-{#            })#}
-{#        </script>#}
     </div>
 	<!--side E-->
 	<!--content S-->
@@ -72,17 +61,17 @@
 		<div class="superCtab">
 			<div class="ctab-Main">
 				<div class="ctab-Mian-cont">
-					<div class="Mian-cont-btn clearfix">
-						<div class="operateBtn">
-							<a href="javascript:;" class="greenbtn add sp-add">添加</a>
-							<a href="javascript:;" class="modify sp-modify" id="sp-modify">修改</a>
-						</div>
-						<div class="searchBar">
-							<input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
-							<input type="button" class="srhBtn" value="">
-						</div>
-					</div>
 					<div id="teacher" class="Mian-cont-wrap">
+                        <div class="Mian-cont-btn clearfix">
+                            <div class="operateBtn">
+                                <a href="http://127.0.0.1:8000/admin/" class="greenbtn add sp-add">添加</a>
+                                <a href="http://127.0.0.1:8000/admin/" class="modify sp-modify" id="sp-modify">修改</a>
+                            </div>
+                            <div class="searchBar">
+                                <input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
+                                <input type="button" class="srhBtn" value="">
+                            </div>
+					    </div>
 						<div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
 								<tbody><tr><th class="t_1">教师工号</th><th class="t_2">姓名</th><th class="t_3">所属学院</th><th class="t_4">操作</th></tr>
@@ -102,7 +91,7 @@
 						</table>
 						<!--pages S-->
 						<div class="pageSelect">
-							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<span>共 <b>4</b> 条 每页 <b>10 </b>条   1/4</span>
 							<div class="pageWrap">
 								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
 								<a href="#" class="pagenumb cur">1</a>
@@ -114,28 +103,39 @@
 						<!--pages E-->
 					</div>
                     <div id="student" class="Mian-cont-wrap main1-1">
+                        <div class="Mian-cont-btn clearfix">
+                            <div class="operateBtn">
+                                <a href="http://127.0.0.1:8000/admin/" class="greenbtn add sp-add">添加</a>
+                                <a href="http://127.0.0.1:8000/admin/" class="modify sp-modify" id="sp-modify">修改</a>
+                            </div>
+                            <div class="searchBar">
+                                <input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
+                                <input type="button" class="srhBtn" value="">
+                            </div>
+					    </div>
 						<div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
-								<tbody><tr><th class="t_1">学生学号</th><th class="t_2">姓名</th><th class="t_2">专业</th><th class="t_3">班级</th><th class="t_3">课程名</th><th class="t_3">成绩</th><th class="t_4">操作</th></tr>
+								<tbody><tr><th class="t_1">学生学号</th><th class="t_2">姓名</th><th class="t_2">专业</th><th class="t_3">班级</th><th class="t_3">所在学院</th><th class="t_4">操作</th></tr>
 							</tbody></table>
 						</div>
 						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
 							<tbody>
+                            {% for students in student %}
 								<tr>
-									<td class="t_1">20150084</td>
-									<td class="t_2"><a href="#">1111111</a></td>
-									<td class="t_2">2015-12-01</td>
-                                    <td class="t_3">2015-12-01</td>
-                                    <td class="t_3">2015-12-01</td>
-                                    <td class="t_3">100</td>
-									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+									<td class="t_1">{{ students.StudentId }}</td>
+									<td class="t_2">{{ students.UserName }}</td>
+									<td class="t_2">{{ students.MajorId }}</td>
+                                    <td class="t_3">{{ students.GradeId }}</td>
+                                    <td class="t_3">{{ students.InstitudeId}}</td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">查看详情</a><a href="#" class="delete">删除</a></div></td>
 								</tr>
+                            {% endfor %}
 
 							</tbody>
 						</table>
 						<!--pages S-->
 						<div class="pageSelect">
-							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<span>共 <b>4</b> 条 每页 <b>10 </b>条   1/4</span>
 							<div class="pageWrap">
 								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
 								<a href="#" class="pagenumb cur">1</a>
@@ -147,16 +147,37 @@
 						<!--pages E-->
 					</div>
                     <div id="score" class="Mian-cont-wrap main1-1">
+                        <div class="ctab-Main-title">
+                            <ul class="clearfix">
+                                <li class="11 cur" id="banji">
+                                    <a href="#" onclick="changebj()">按班级查成绩</a>
+                                </li>
+                                <li class="11" id="kecheng">
+                                    <a href="#" onclick="changekc()">按课程查成绩</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Mian-cont-btn clearfix">
+                            <div class="operateBtn">
+                                <a href="http://127.0.0.1:8000/admin/" class="greenbtn add sp-add">添加</a>
+                                <a href="http://127.0.0.1:8000/admin/" class="modify sp-modify" id="sp-modify">修改</a>
+                            </div>
+                            <div class="searchBar">
+                                <input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
+                                <input type="button" class="srhBtn" value="">
+                            </div>
+					    </div>
+                        <div class="11" id="bj">
 						<div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
-								<tbody><tr><th class="t_1">课程ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
+								<tbody><tr><th class="t_1">班级名称</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
 							</tbody></table>
 						</div>
 						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
 							<tbody>
 								<tr>
 									<td class="t_1">20150084</td>
-									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
+									<td class="t_2">平安好医生与平安银行开启全面战略合作</td>
 									<td class="t_3">2015-12-01</td>
 									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
 								</tr>
@@ -174,20 +195,21 @@
 								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
 							</div>
 						</div>
-						<!--pages E-->
-					</div>
-                    <div id="class" class="Mian-cont-wrap main1-1">
-						<div class="defaultTab-T">
+                        </div>
+                        <div class="main1-1" id="kc">
+                        <div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
-								<tbody><tr><th class="t_1">班级ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
+								<tbody><tr><th class="t_1">课程名称</th><th class="t_2">最高分</th><th class="t_3">最低分</th><th class="t_3">平均分</th><th class="t_3">及格率</th><th class="t_4">操作</th></tr>
 							</tbody></table>
 						</div>
 						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
 							<tbody>
 								<tr>
 									<td class="t_1">20150084</td>
-									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
+									<td class="t_2">平安好医生与平安银行开启全面战略合作</td>
 									<td class="t_3">2015-12-01</td>
+                                    <td class="t_3">2015-12-01</td>
+                                    <td class="t_3">2015-12-01</td>
 									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
 								</tr>
 
@@ -196,6 +218,50 @@
 						<!--pages S-->
 						<div class="pageSelect">
 							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<div class="pageWrap">
+								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
+								<a href="#" class="pagenumb cur">1</a>
+								<a href="#" class="pagenumb">2</a>
+								<a href="#" class="pagenumb">3</a>
+								<a href="#" class="pagenext"><i class="ico-next">&nbsp;</i></a>
+							</div>
+						</div>
+                        </div>
+						<!--pages E-->
+					</div>
+                    <div id="class" class="Mian-cont-wrap main1-1">
+                        <div class="Mian-cont-btn clearfix">
+                            <div class="operateBtn">
+                                <a href="http://127.0.0.1:8000/admin/" class="greenbtn add sp-add">添加</a>
+                                <a href="http://127.0.0.1:8000/admin/" class="modify sp-modify" id="sp-modify">修改</a>
+                            </div>
+                            <div class="searchBar">
+                                <input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
+                                <input type="button" class="srhBtn" value="">
+                            </div>
+					    </div>
+						<div class="defaultTab-T">
+							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
+								<tbody><tr><th class="t_1">班级号</th><th class="t_2">班级名称</th><th class="t_3">班级人数</th><th class="t_3">所属学院</th><th class="t_4">操作</th></tr>
+							</tbody></table>
+						</div>
+						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
+							<tbody>
+                            {% for classes in class %}
+								<tr>
+									<td class="t_1">{{ classes.GradeId }}</td>
+									<td class="t_2">{{ classes.GradeName }}</td>
+									<td class="t_3">{{ classes.GradeNum}}</td>
+                                    <td class="t_3">{{ classes.InstitudeId}}</td>
+									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
+								</tr>
+                            {% endfor %}
+
+							</tbody>
+						</table>
+						<!--pages S-->
+						<div class="pageSelect">
+							<span>共 <b>4</b> 条 每页 <b>10 </b>条   1/4</span>
 							<div class="pageWrap">
 								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
 								<a href="#" class="pagenumb cur">1</a>
@@ -207,25 +273,38 @@
 						<!--pages E-->
 					</div>
                     <div id="course" class="Mian-cont-wrap main1-1">
+                        <div class="Mian-cont-btn clearfix">
+                            <div class="operateBtn">
+                                <a href="http://127.0.0.1:8000/admin/" class="greenbtn add sp-add">添加</a>
+                                <a href="http://127.0.0.1:8000/admin/" class="modify sp-modify" id="sp-modify">修改</a>
+                            </div>
+                            <div class="searchBar">
+                                <input type="text" id="" value="" class="form-control srhTxt" placeholder="输入标题关键字搜索">
+                                <input type="button" class="srhBtn" value="">
+                            </div>
+					    </div>
 						<div class="defaultTab-T">
 							<table border="0" cellspacing="0" cellpadding="0" class="defaultTable">
-								<tbody><tr><th class="t_1">课程ID</th><th class="t_2">教授的课程号</th><th class="t_3">课程名</th><th class="t_4">操作</th></tr>
+								<tbody><tr><th class="t_1">课程号</th><th class="t_2">课程名</th><th class="t_3">课时</th><th class="t_3">授课老师</th><th class="t_4">操作</th></tr>
 							</tbody></table>
 						</div>
 						<table border="0" cellspacing="0" cellpadding="0" class="defaultTable defaultTable2">
 							<tbody>
+                            {% for courses in course %}
 								<tr>
-									<td class="t_1">20150084</td>
-									<td class="t_2"><a href="#">平安好医生与平安银行开启全面战略合作</a></td>
-									<td class="t_3">2015-12-01</td>
+									<td class="t_1">{{ courses.CouserId }}</td>
+									<td class="t_2">{{ courses.CouserName }}</td>
+									<td class="t_3">{{ courses.Period }}</td>
+                                    <td class="t_3">{{ courses.TeacherId }}</td>
 									<td class="t_4"><div class="btn"><a href="#" class="modify">修改</a><a href="#" class="delete">删除</a></div></td>
 								</tr>
+                            {% endfor %}
 
 							</tbody>
 						</table>
 						<!--pages S-->
 						<div class="pageSelect">
-							<span>共 <b>188</b> 条 每页 <b>10 </b>条   1/18</span>
+							<span>共 <b>4</b> 条 每页 <b>10 </b>条   1/4</span>
 							<div class="pageWrap">
 								<a class="pagePre"><i class="ico-pre">&nbsp;</i></a>
 								<a href="#" class="pagenumb cur">1</a>
@@ -241,123 +320,8 @@
 			</div>
 		</div>
 		<!--main-->
-
 	</div>
 	<!--content E-->
-
-	    <div class="layuiBg"></div><!--公共遮罩-->
-        <!--点击修改弹出层-->
-        <div class="imgXgbox layuiBox">
-            <div class="layer-title clearfix"><h2>修改栏目图片</h2><span class="layerClose"></span></div>
-            <div class="layer-content">
-                <div class="XgfileImg"><img src="../static/images/bg_img_sc.jpg"><input id="fileImage" class="fileImageSlect" type="file" size="30" name="fileselect[]"></div>
-                <p class="onclktip">（点击图片可重新上传）</p>
-                <div class="Xgimglink clearfix"><span>图片链接：</span><input type="text" value=""></div>
-                <div class="XgBtn"><input type="button" value="保存" class="saveBtn"></div>
-            </div>
-        </div>
-	    <!--点击添加分类弹出-->
-        <div class="addFeileibox layuiBox">
-            <div class="layer-title clearfix"><h2>添加分类</h2><span class="layerClose"></span></div>
-            <div class="layer-content">
-                <div class="aFllink clearfix"><span>上级栏目：</span><h5>新闻动态</h5></div>
-                <div class="aFllink clearfix"><span>二级栏目：</span><input type="text" value=""></div>
-                <div class="aFlBtn"><input type="button" value="保存" class="saveBtn"></div>
-            </div>
-        </div>
-            <script type="text/javascript" src="../static/js/zxxFile.js"></script>
-            <script>
-            var params = {
-                fileInput: $("#fileImage").get(0),
-                upButton: $("#fileSubmit").get(0),
-                url: $("#uploadForm").attr("action"),
-                filter: function(files) {
-                    var arrFiles = [];
-                    for (var i = 0, file; file = files[i]; i++) {
-                        if (file.type.indexOf("image") == 0) {
-                            if (file.size >= 512000) {
-                                alert('您这张"'+ file.name +'"图片大小过大，应小于500k');
-                            } else {
-                                arrFiles.push(file);
-                            }
-                        } else {
-                            alert('文件"' + file.name + '"不是图片。');
-                        }
-                    }
-                    return arrFiles;
-                },
-                onSelect: function(files) {
-                    var html = '', i = 0;
-                    $("#preview").html('<div class="upload_loading"></div>');
-                    var funAppendImage = function() {
-                        file = files[i];
-                        if (file) {
-                            var reader = new FileReader()
-                            reader.onload = function(e) {
-                                $('.XgfileImg img').attr('src', e.target.result);
-                                $('.sp-photo').addClass('cur');
-                                html = html + '<div id="uploadList_'+ i +'" class="upload_append_list"><p><span>' + file.name + '</span>'+
-                                    '<a href="javascript:" class="upload_delete" title="删除" data-index="'+ i +'">删除</a>' +
-                                '</div>';
-
-                                i++;
-                                funAppendImage();
-                            }
-                            reader.readAsDataURL(file);
-                        } else {
-                            $("#preview").html(html);
-                            if (html) {
-                                //删除方法
-                                $(".upload_delete").click(function() {
-                                    ZXXFILE.funDeleteFile(files[parseInt($(this).attr("data-index"))]);
-                                    $('.sp-photo').removeClass('cur').html('栏目图片');
-                                    return false;
-                                });
-                                //提交按钮显示
-                                $("#fileSubmit").show();
-                            } else {
-                                //提交按钮隐藏
-                                $("#fileSubmit").hide();
-                            }
-                        }
-                    };
-                    funAppendImage();
-                },
-                onDelete: function(file) {
-                    $("#uploadList_" + file.index).fadeOut();
-                },
-                onDragOver: function() {
-                    $(this).addClass("upload_drag_hover");
-                },
-                onDragLeave: function() {
-                    $(this).removeClass("upload_drag_hover");
-                },
-                onProgress: function(file, loaded, total) {
-                    var eleProgress = $("#uploadProgress_" + file.index), percent = (loaded / total * 100).toFixed(2) + '%';
-                    eleProgress.show().html(percent);
-                },
-                onSuccess: function(file, response) {
-                    $("#uploadInf").append("<p>上传成功，图片地址是：" + response + "</p>");
-                },
-                onFailure: function(file) {
-                    $("#uploadInf").append("<p>图片" + file.name + "上传失败！</p>");
-                    $("#uploadImage_" + file.index).css("opacity", 0.2);
-                },
-                onComplete: function() {
-                    //提交按钮隐藏
-                    $("#fileSubmit").hide();
-                    //file控件value置空
-                    $("#fileImage").val("");
-                    $("#uploadInf").append("<p>当前图片全部上传完毕，可继续添加上传。</p>");
-                }
-            };
-            ZXXFILE = $.extend(ZXXFILE, params);
-            ZXXFILE.init();
-
-            </script>
-		</div>
-		<!--main-->
-		
 	</div>
 	<!--content E-->
 	
@@ -370,7 +334,6 @@
         $('.superWrap').height(winH);
         $('.superCtabBot').height(winH-headH);
     };
-    $(window).resize();
     </script>
 {#    教师管理#}
     <script>
@@ -414,8 +377,23 @@
             $("#course").removeClass("main1-1");
 
         }
+        function changebj() {
+            $("#kc").addClass("main1-1");
+            $("#bj").removeClass("main1-1");
+            $("#banji").addClass("cur");
+            $("#kecheng").removeClass("cur")
+        }
+        function changekc() {
+            $("#bj").addClass("main1-1");
+            $("#kc").removeClass("main1-1");
+            $("#banji").removeClass("cur");
+            $("#kecheng").addClass("cur")
+        }
     </script>
-
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+	<script type="text/javascript" src="../static/js/modernizr.js"></script>
 </div>
 </body>
 </html>
